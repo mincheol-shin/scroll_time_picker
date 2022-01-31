@@ -1,17 +1,4 @@
-
-
-import 'package:flutter/material.dart';
-
-class ScrollTimePicker extends StatefulWidget {
-  const ScrollTimePicker({Key? key}) : super(key: key);
-
-  @override
-  _ScrollTimePickerState createState() => _ScrollTimePickerState();
-}
-
-class _ScrollTimePickerState extends State<ScrollTimePicker> {
-  @override
-  Widget build(BuildContext context) {
-    return Container();
-  }
-}
+export 'src/scroll_time_picker.dart';
+export 'src/scroll_time_picker_constants.dart';
+export 'src/models/time_picker_decoration.dart';
+export 'src/models/time_picker_properties.dart';
